@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.jumbotron {
+    background-color: gainsboro;
+    padding: 15px;
+    max-width: 1120px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.row {
+    text-align: center;
+}
