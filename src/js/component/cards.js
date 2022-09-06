@@ -4,7 +4,7 @@ import React from "react";
 
 
 //create your first component
-const Card = () => {
+const Cards = () => {
 	return (
 		<div className="container">
   <div className="row">
@@ -89,4 +89,4 @@ const Card = () => {
 	);
 };
 
-export default Card;
+export default Cards;

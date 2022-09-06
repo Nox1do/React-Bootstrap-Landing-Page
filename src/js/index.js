@@ -9,7 +9,7 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 import Navbar from "./component/navbar.js";
 import Jumbotron from "./component/jumbotron.js";
-import Card from "./component/card.js";
+import Cards from "./component/cards.js";
 import Footer from "./component/footer.js"
 
 //render your react application
@@ -18,8 +18,7 @@ ReactDOM.render(
 <Home />,
 <Navbar />,
 <Jumbotron/>,
-
-<Card/>,
+<Cards/>,
 <Footer/>
 </div>,
  document.querySelector("#app"));
