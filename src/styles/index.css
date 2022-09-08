@@ -11,9 +11,9 @@
 
 */
 .jumbotron {
-    background-color: gainsboro;
+    background-color: rgb(182, 175, 175);
     padding: 15px;
-    max-width: 1290px;
+    max-width: 1010px;
     margin: 0 auto;
     width: 100%;
     
@@ -21,9 +21,17 @@
 
 .row {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .navbar {
     padding : 10px 20px;
 }
  
+.react {
+    text-align: center;
+   
+    
+}

@@ -14,11 +14,15 @@ import Footer from "./component/footer.js"
 
 //render your react application
 ReactDOM.render(
-    <div>
+<div>
 <Home />,
 <Navbar />,
 <Jumbotron/>,
+<div className=" containter-fluid row">
 <Cards/>,
+<Cards/>,
+<Cards/>,
+</div>
 <Footer/>
 </div>,
  document.querySelector("#app"));
